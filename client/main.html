@@ -3,84 +3,14 @@
 </head>
 
 <body>
-  <div class="col container">
   {{> navbar}}
-  {{> intro}}
-  </div>
+  {{> picturedivider2}}
+    <div class="col container">
+      {{> info}}
+    </div>
+          {{> picturedivider}}
+    <div class="col container">   
+      {{> projects}}
+    </div>
+   {{> footer}}
 </body>
-
-<template name="navbar">
- <nav style="background-color:#1976d2">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">Ellen Maria Nilsson</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="main.html">Hem</a></li>
-      </ul>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="https://github.com/ellenmarianilsson">Github</a></li>
-      </ul>
-    </div>
-  </nav>
-</template>
-
-<template name="pictures">
-<div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20121323_10213152844551691_5661337446300015917_o.jpg?oh=96bb8bf4c5cb0387dafaca39f3b8ca50&oe=59FC0782">
-              <span class="card-title">Välkommen till min hemsida!</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-</template>
-
-<template name="intro">
-   <div class="row">
-      <div class="col s7 push-s5"><span class="flow-text">
-             <div class="row">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20121323_10213152844551691_5661337446300015917_o.jpg?oh=96bb8bf4c5cb0387dafaca39f3b8ca50&oe=59FC0782">
-                    <span class="card-title">Välkommen till min hemsida!</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
-              </div>
-            </div>
-          </span>
-      </div>
-      
-      <div class="col s5 pull-s7"><span class="flow-text">5-columns wide pulled to the left by 7-columns.        
-        
-      </span>
-      </div>
-    </div>
-</template>
-
-<template name="test">
-  <div class row>
-      <div class="col s4">
-        <img class="materialboxed" width="650" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20121323_10213152844551691_5661337446300015917_o.jpg?oh=96bb8bf4c5cb0387dafaca39f3b8ca50&oe=59FC0782">
-      </div>
-      <div class="col s4">
-        <img class="materialboxed" width="650" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/18671693_10212586000540945_7029953387557850292_o.jpg?oh=ba78324389458603b882188cf4513564&oe=59FEE610">
-      <div class="col s4">
-        <img class="materialboxed" width="650" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20121323_10213152844551691_5661337446300015917_o.jpg?oh=96bb8bf4c5cb0387dafaca39f3b8ca50&oe=59FC0782">
-      </div>
-    </div>
-  </div>
-</template>

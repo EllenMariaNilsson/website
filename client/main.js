@@ -3,6 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
+
 /* AN ON CLICK BOTTON COUNTER LOL
 
 Template.hello.onCreated(function helloOnCreated() {
